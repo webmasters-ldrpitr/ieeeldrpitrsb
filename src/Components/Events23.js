@@ -1,6 +1,7 @@
 import React from 'react'
 import ieeeiam from "./ieeeiam.png";
 import ieeetrailblazer from "./ieeetrailblazer.png";
+import awarenessdrive from "./awarenessdrive.png"
 
 // Events23 component definition
 export default function Events23() {
@@ -19,6 +20,7 @@ export default function Events23() {
         <div className="heroinfo ">
           
           {/* Title for Events of 2024 */}
+
           <div className="flex justify-center">
             <h1 id="poppins" className="text-5xl font-semibold text-slate-600 tracking-wide">Events of 2024</h1>
           </div>
@@ -27,12 +29,12 @@ export default function Events23() {
           <div className='flex justify-center'>
             <div className="cards mt-10 grid gap-x-[3rem] grid-cols-2 grid-rows-1">
               {/* Event 1 */}
-              <div className='col-span-1 rounded-xl h-[23rem] w-[35rem] flex items-center   '>
+              <div className='col-span-1 rounded-xl border border-1 border-black  h-[23rem] w-[35rem] flex items-center   '>
                 <img src={ieeeiam} className="h-[100%] rounded-xl  " alt="" />
               </div>
               {/* Event 2 */}
               <div className='bg-gray-200 rounded-xl col-span-1 h-[23rem] w-[35rem]'>
-              <img src={ieeetrailblazer} className="h-[100%] rounded-xl  " alt="" />
+              <img src={ieeetrailblazer} className="h-[100%] border border-1 border-black  rounded-xl  " alt="" />
               </div>
 
               
@@ -46,6 +48,24 @@ export default function Events23() {
               <div className='mt-2 flex justify-center w-[35rem] col-span-1'><h1>TrailBlazer in Campus</h1></div>
               
             </div>
+          </div>
+
+          <div className='flex justify-center'>
+          <div className="cards mt-10 grid gap-x-[3rem] grid-cols-1 grid-rows-1">
+              {/* Event 1 */}
+              <div className='col-span-1 rounded-xl h-[23rem] w-[35rem] flex items-center   '>
+                <img src={awarenessdrive} className="h-[100%] border border-1 border-black rounded-xl  " alt="" />
+              </div>
+          </div>
+          </div>
+
+          <div className='flex justify-center'>
+          <div id='poppins' className="cardinfo text-lg grid gap-x-[3rem] grid-cols-1 grid-rows-1" >
+              <div className='mt-2 flex justify-center   w-[35rem] col-span-1'><h1>IEEE Awareness Drive</h1></div>
+              
+              
+            </div>
+
           </div>
 
           
